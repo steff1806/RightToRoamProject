@@ -34,7 +34,6 @@ const dataSchema = new mongoose.Schema(
     { timestamps: true }
 );
 
-
 // Create a Mongoose model
 const Data = mongoose.model('Data', dataSchema);
 
